@@ -20,4 +20,3 @@ spec:
         name: cluster-vars
         # Use this ConfigMap if it exists, but proceed if it doesn't.
         optional: false
-        namespace: podinfo
