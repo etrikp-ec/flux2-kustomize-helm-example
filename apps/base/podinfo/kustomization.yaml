@@ -3,7 +3,6 @@ kind: Kustomization
 namespace: podinfo
 resources:
   - namespace.yaml
-  - cluster-vars.yaml
   - repository.yaml
   - release.yaml
 
