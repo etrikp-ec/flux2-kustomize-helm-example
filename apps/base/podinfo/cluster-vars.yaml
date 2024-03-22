@@ -3,6 +3,6 @@ kind: ConfigMap
 metadata:
   creationTimestamp: null
   name: cluster-vars
-  namespace: podinfo
+  namespace: flux-system
 stringData:
   base_domain: "ec.local"
