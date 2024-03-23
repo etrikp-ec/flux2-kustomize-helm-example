@@ -6,5 +6,5 @@ metadata:
   namespace: flux-system
 type: Opaque
 stringData:
-  tls.crt: ${tls.crt}
-  tls.kek: ${tls.key}
+  tls.crt: ${tls_crt}
+  tls.kek: ${tls_key}
