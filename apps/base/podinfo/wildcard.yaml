@@ -4,7 +4,6 @@ kind: Secret
 metadata:
   name: secret
   namespace: flux-system
-type: Opaque
 stringData:
   tls.crt: ${tls_crt}
   tls.key: ${tls_key}
