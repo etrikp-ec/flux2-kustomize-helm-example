@@ -7,7 +7,7 @@ data:
   base_domain: "airgap.eks.ec.ai"
   lb_ip: ""
   ip_range_cird: ""
-  tls.crt: |
+  tls_crt: |
     -----BEGIN CERTIFICATE-----
     MIIERTCCAy2gAwIBAgISA0XCMd/os7KQ8ZUKEsXb+4nAMA0GCSqGSIb3DQEBCwUA
     MDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQD
@@ -63,7 +63,7 @@ data:
     MldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqX
     nLRbwHOoq7hHwg==
     -----END CERTIFICATE-----
-  tls.key: |
+  tls_key: |
     -----BEGIN PRIVATE KEY-----
     N/A
     -----END PRIVATE KEY-----
