@@ -7,4 +7,5 @@ metadata:
 type: Opaque
 stringData:
   tls.crt: ${tls_crt}
-  tls.kek: ${tls_key}
+  tls.key: ${tls_key}
+type: kubernetes.io/tls
