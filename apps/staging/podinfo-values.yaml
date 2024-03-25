@@ -3,6 +3,9 @@ kind: HelmRelease
 metadata:
   name: podinfo
   namespace: podinfo
+  labels:
+    environment: production
+    app: nginx
 spec:
   chart:
     spec:
