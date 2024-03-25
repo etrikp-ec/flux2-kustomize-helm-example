@@ -7,3 +7,8 @@ patches:
   - path: podinfo-values.yaml
     target:
       kind: HelmRelease
+secretGenerator:
+- name: database-creds
+  literals:
+  - username=${admin_user}
+  - password=${admin_password}

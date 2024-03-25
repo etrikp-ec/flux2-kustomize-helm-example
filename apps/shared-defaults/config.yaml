@@ -4,6 +4,8 @@ metadata:
   name: shared-defaults
   namespace: flux-system
 data:
+  admin_user: "admin"
+  admin_password: "changeme1234"
   base_domain: "airgap.eks.ec.ai"
   lb_ip: ""
   ip_range_cird: ""
